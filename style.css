@@ -1,23 +1,41 @@
 body{
     font-family: 'Teko', sans-serif;
-    margin: 0px;
+    margin: auto;
 }
 h1{
     font-size: 59px;
+    color: rgb(233, 145, 14);
 }
 .orange-color{
-    color: orange;
+    color: tomato;
 }
-section{
+h2{
+    font-size: 50px;
+    color: orangered;
+}
+.software{
+    color: #9c471e;
+    font-size: 33px;
+}
+.building{
+    color: rgb(162, 216, 91);
+    font-size: 47px;
+}
+p{
+    font-size: 25px;
+    color: #d0602a;
+}
+.flexible-container{
     display: flex;
-    margin: 140px;
+    margin: 5px;
 }
 .half-width{
     width: 50%;
     padding: 5% ;
+    
 }
 .half-width img{
-    width: 80%;
+    width: 113%;
 }
 .link-button{
     text-decoration: none;
@@ -34,5 +52,34 @@ section{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    
     background-position: right;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiance-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgb(95 18 18);
+    
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, aqua);
+    border-image-slice: 1;
+}
+#full-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, aqua);
+    border-image-slice: 1;
+}
+footer{
+    color: brown;
+    text-align: center;
 }
